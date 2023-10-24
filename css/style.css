@@ -242,6 +242,10 @@ line-height: 28px;
   line-height: 32px; 
 }
 
+.butmain:hover{
+  background-color: #fece56;
+}
+
 
 .buta{
   display: flex;
