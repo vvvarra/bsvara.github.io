@@ -1,0 +1,954 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  *,
+  a::before,
+  *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :focus,
+  :active {
+    outline: none;
+  }
+  
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button::-moz-focus-inner {
+    padding: 0;
+    bottom: 0;
+  }
+  
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: 400;
+  }
+
+  img {
+    width: 100%;
+    vertical-align: top;
+    object-fit: contain
+  }
+
+.navbar{
+    background-color: #1C1E53!important;
+}
+
+.nav-link{
+  color: #BBBBCB;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.nav-link:hover{
+  color: var(--White, #FFF)!important;
+}
+
+.btn-outline-warning:hover {
+  color: #1C1E53;
+  background-color: #FCD980;
+  border-color: #FCD980;
+}
+
+.btn-outline-warning{
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: #FCD980;
+  border-color: #FCD980;
+}
+
+.modal-body{
+  color: #1C1E53;
+  font-family: Poppins;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px; 
+}
+
+.modal-header{
+  border-bottom: none;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.labelcolor{
+  color: #1C1E53;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px; 
+  margin-left: 4%;
+}
+
+
+input[type="email"], input[type="tel"] {
+  border: 1px solid #2405F2;
+  border-radius: 15px;
+  color: #1B1C2A;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  height: 50px;
+  margin: 4%;
+  padding: 5%;
+}
+
+.text{
+  max-width: 38%;
+}
+
+.btn-secondary{
+  color: #fff;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.butcon{
+  color: #1B1C2A;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; 
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.text h1{
+  color: var(--White, #FFF);
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px; 
+}
+
+.text p{
+  color: var(--White, #FFF);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+}
+
+.sec1{
+  background-color: #1C1E53;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text img{
+  max-width: 3%;
+}
+
+.illf{
+  width: 50%;
+}
+
+.butmain{
+  border-radius: 13px;
+  background: #FCD980;
+  padding: 2% 6%;
+  color: #1B1C2B;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; 
+}
+
+
+.buta{
+  display: flex;
+  align-items: center;
+}
+
+.buta a{
+  color: #FFF!important;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding-left: 9%;
+  padding-right: 2%;
+}
+
+.accordion-body{
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; 
+}
+
+.accordion-button{
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; 
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+}
+
+.accordion-button p{
+  color: var(--Royal-Blue, #2405F2);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; 
+}
+
+.textquet h2{
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; 
+}
+
+.textquet a{
+  color: var(--Royal-Blue, #2405F2);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; 
+}
+
+.row1{
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--Royal-Blue, #2405F2)!important;
+  background-color: #e7e3ff;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem  #2405F2!important;
+}
+
+.textend{
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+.nav-link{
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+/* .nl:hover{
+  color: #2405F2!important;
+}
+
+.nl{
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+} */
+
+.row2{
+  display: flex;
+  align-items: baseline;
+}
+
+.seclast{
+  background-color: #1C1E53;
+  padding-top: 5%;
+}
+
+.log img{
+  max-width: 20%;
+}
+
+.secicon img{
+  max-width: 3%;
+}
+
+.txt1 p{
+  color: var(--White, #FFF);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  max-width: 70%;
+}
+
+.txt2 h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.txt2 p{
+  color: var(--Grey, #F4F6FC);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 62%;
+}
+
+.alloe{
+  max-width: 80%;
+}
+
+.txt12{
+  display: flex;
+  max-width: 80%;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.emailcall{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.conam{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; 
+}
+
+.slaid{
+ margin-top: 5%;
+ margin-bottom: 5%;
+}
+
+.slaid h2{
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; 
+}
+
+.slaidp{
+  color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+.txtname img{
+  max-width: 7%;
+}
+
+.txtname{
+  display: flex;
+  align-items: center;
+}
+
+.namecl{
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; 
+  padding-left: 4%;
+}
+
+.blockt{
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.whatsay{
+  max-width: 32%;
+}
+
+.row-1{
+  justify-content: space-between;
+}
+
+.par p{
+  color: var(--Dark-blue, #282938);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.par h2{
+  color: var(--Dark-blue, #282938);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  padding-bottom: 3%;
+}
+
+.row-2{
+  display: flex;
+ }
+
+.nav-link:hover {
+  color: #2405F2!important;
+}
+
+.nav-link{
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.tabsec{
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+
+.tab-pane{
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding-top: 2%;
+}
+
+
+@media screen and (max-width:1200px){
+  .text {
+    max-width: 41%;
+  }
+
+  .text h1{
+    font-size: 48px;
+    line-height: 62px;
+  }
+
+  .text p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .txt2 p {
+    max-width: 71%;
+  }
+
+  .accordion-button {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+.blockt {
+  font-size: 24px;
+  line-height: 36px;
+  }
+
+.whatsay {
+  max-width: 38%;
+  }
+
+.namecl {
+  font-size: 16px;
+  }
+
+  .slaid h2, .textquet h2  {
+    font-size: 34px;
+    line-height: 48px;
+  }
+
+  .nav-link {
+    padding: 0.5rem 0.3rem;
+    font-size: 14px;
+  }
+
+  .conam {
+    font-size: 13px;
+    line-height: 19px;
+}
+
+}
+
+@media screen and (max-width: 992px){
+
+  .text h1 {
+    font-size: 33px;
+    line-height: 44px;
+  }
+
+  .text p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .butmain {
+    font-size: 15px;
+    line-height: 31px;
+}
+
+.buta a {
+  font-size: 14px;
+  }
+
+  .par h2 {
+    font-size: 43px;
+    line-height: 53px;
+  }
+
+  .par p{
+    font-size: 14px;
+  }
+
+  .tab-pane {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.slaid h2, .textquet h2 {
+  font-size: 31px;
+  line-height: 42px;
+  }
+
+  .blockt {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .slaidp {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .txtname img {
+    max-width: 10%;
+  }
+
+  .namecl {
+    font-size: 14px;
+  }
+
+  .accordion-button {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.accordion-body {
+  font-size: 13px;
+  line-height: 23px;
+  }
+
+  .textquet a {
+    font-family: Poppins;
+    line-height: 25px;
+  }
+
+  .emailcall {
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .conam {
+
+      font-size: 12px;
+      line-height: 21px;
+  }
+
+  .txt1 p, .txt2 p{
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .txt2 h2 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .row2 {
+      justify-content: space-between;
+  }
+
+  .secicon img {
+    max-width: 5%;
+  }
+
+  .textend {
+    font-size: 14px;
+    padding-bottom: 0%;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+
+  .btn-outline-warning {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .sec1{
+    padding: 4%;
+  }
+
+  .text {
+    max-width: 50%;
+  }
+
+  .illf {
+    width: 45%;
+  }
+
+  .text h1 {
+    font-size: 25px;
+    line-height: 38px;
+  }
+
+  .nav-link{
+    line-height: 20px;
+  }
+
+  .par h2 {
+    font-size: 33px;
+    line-height: 42px;
+  }
+
+  .whatsay {
+    max-width: 100%;
+  }
+
+  .slaid h2, .textquet h2 {
+    font-size: 29px;
+    line-height: 40px;
+  }
+
+  .slaid h2, .textquet h2 {
+    font-size: 29px;
+    line-height: 40px;
+  }
+
+  .textquet a{
+    font-size: 15px;
+  }
+
+  .textquet{
+    padding-bottom: 5%;
+  }
+
+  .accordion-button {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .txt12 {
+    max-width: 100%;
+    padding: 4%;
+  }
+
+  .log img {
+    max-width: 30%;
+  }
+
+  .txt2 p {
+    max-width: 100%;
+  }
+
+  .txt1 p {
+    max-width: 100%;
+  }
+
+  .emailcall {
+    margin: 2%;
+  }
+
+  .modal-dialog {
+    max-width: 450px;
+    margin: 1.75rem auto;
+  }
+
+  .labelcolor {
+    color: rgb(28, 30, 83);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    margin-left: 4%;
+}
+
+}
+
+@media screen and (max-width: 576px){
+   .row-2{
+    display: flex;
+   }
+
+   .text h1 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .text p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .illf {
+    width: 80%;
+  }
+
+  .text {
+    max-width: 100%;
+  }
+
+  .sec1 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .text h1 {
+    padding-top: 8%;
+  }
+
+  .par h2 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  .slaid h2, .textquet h2 {
+    font-size: 21px;
+    line-height: 31px;
+  }
+
+  .buta {
+    justify-content: center;
+  }
+
+  .tab-pane {
+    font-size: 11px;
+    line-height: 21px;
+  }
+
+  .tabsec {
+    margin-bottom: 12%;
+  }
+
+  .butmain {
+    font-size: 12px;
+    line-height: 25px;
+    border-radius: 16px;
+  }
+
+  .buta a{
+    font-size: 12px;
+  }
+
+  .blockt {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .namecl {
+    font-size: 12px;
+  }
+
+  .accordion-body {
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+
+  .txt2 h2 {
+    font-size: 21px;
+    line-height: 32px;
+  }
+
+  .log img {
+      max-width: 45%;
+  }
+
+
+  .emailcall {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+  .log {
+    padding-right: 10%;
+  }
+
+  .secicon img {
+    max-width: 10%;
+  }
+
+  .par p {
+    margin-top: 6%;
+}
+
+.textend {
+  font-size: 13px;
+  line-height: 20px;
+  }
+
+  .modal-dialog {
+    max-width: 320px;
+    margin: 1.75rem auto;
+}
+
+.modal-body {
+  font-size: 18px;
+  line-height: 54px;
+}
+
+
+input[type="email"], input[type="tel"] {
+  font-size: 14px;
+  line-height: 21px;
+  height: 42px;
+}
+
+.butcon, .btn-secondary {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.labelcolor {
+  font-size: 13px;
+  line-height: 19px;
+}
+
+
+
+}
+
+
